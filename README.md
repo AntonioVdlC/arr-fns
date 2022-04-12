@@ -34,36 +34,6 @@ import { reduce, sort } from "arr-fns";
 const { reduce, sort } = require("arr-fns");
 ```
 
-## Reduce functions
-
-Here is a list of provided reduce functions:
-
-### sum
-Computes the sum of all the elements in an array.
-
-### average
-Computes the average of all the elements in an array.
-
-### groupBy
-Generates an object from an array of objects, where the keys correspond to the values of the first argument, and the value corresponds to the object itself.
-
-## Sort functions
-
-Here is a list of provided sort functions:
-
-### alphabetically
-Sorts an array in alphabetical (string) order. Case sensitive.
-
-### alphabeticallyBase
-Sorts an array in alphabetical (string) order. Case insensitive.
-
-### chronologically
-Sorts an array in chronological (date) order.
-
-### numerically
-Sorts an array in numerical (number) order.
-
-
 > For more detailed usage (including examples) please check each library's documentation.
 
 ## License
