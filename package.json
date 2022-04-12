@@ -56,6 +56,6 @@
   },
   "dependencies": {
     "@antoniovdlc/reduce": "0.1.2",
-    "@antoniovdlc/sort": "1.2.1"
+    "@antoniovdlc/sort": "1.2.3"
   }
 }
