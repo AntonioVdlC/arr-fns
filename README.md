@@ -18,6 +18,7 @@ npm install arr-fns
 ## Motivation
 
 This package encompasses other utility libraries around arrays, namely:
+- [@antoniovdlc/map](https://www.npmjs.com/package/@antoniovdlc/map)
 - [@antoniovdlc/reduce](https://www.npmjs.com/package/@antoniovdlc/reduce)
 - [@antoniovdlc/sort](https://www.npmjs.com/package/@antoniovdlc/sort)
 
@@ -27,11 +28,11 @@ The goal is to have everything easily accessible and packaged in a single librar
 
 You can use this library either as an ES module or a CommonJS package:
 ```js
-import { reduce, sort } from "arr-fns";
+import { map, reduce, sort } from "arr-fns";
 ```
 *- or -*
 ```js
-const { reduce, sort } = require("arr-fns");
+const { map, reduce, sort } = require("arr-fns");
 ```
 
 > For more detailed usage (including examples) please check each library's documentation.

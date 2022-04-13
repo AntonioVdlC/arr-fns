@@ -1,3 +1,4 @@
+import { pick, select } from "@antoniovdlc/map";
 import { sum, average, groupBy } from "@antoniovdlc/reduce";
 import {
   alphabetically,
@@ -8,6 +9,7 @@ import {
   createCompareFunction,
 } from "@antoniovdlc/sort";
 
+const map = { pick, select };
 const reduce = { sum, average, groupBy };
 const sort = {
   alphabetically,
@@ -18,4 +20,4 @@ const sort = {
   createCompareFunction,
 };
 
-export { reduce, sort };
+export { map, reduce, sort };

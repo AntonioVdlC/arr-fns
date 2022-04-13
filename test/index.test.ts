@@ -1,6 +1,13 @@
 import { describe, it, expect } from "vitest";
 
-import { reduce, sort } from "../src";
+import { map, reduce, sort } from "../src";
+
+describe("map", () => {
+  it("exports pick, select", () => {
+    const keys = Object.keys(map).sort();
+    expect(keys).toEqual(["pick", "select"]);
+  });
+});
 
 describe("reduce", () => {
   it("exports sum, average, groupBy", () => {
