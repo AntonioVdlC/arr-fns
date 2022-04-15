@@ -3,11 +3,11 @@ import { describe, it, expect } from "vitest";
 import { filter, map, reduce, sort } from "../src";
 
 describe("filter", () => {
-  it("exports combine, createFilterCompareFunction, equal, greaterThan, greaterThanOrEqual, hasValue, lesserThan, lesserThanOrEqual, match, notNull", () => {
+  it("exports combine, createFilterFunction, equal, greaterThan, greaterThanOrEqual, hasValue, lesserThan, lesserThanOrEqual, match, notNull", () => {
     const keys = Object.keys(filter).sort();
     expect(keys).toEqual([
       "combine",
-      "createFilterCompareFunction",
+      "createFilterFunction",
       "equal",
       "greaterThan",
       "greaterThanOrEqual",

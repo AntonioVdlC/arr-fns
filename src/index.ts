@@ -8,7 +8,7 @@ import {
   greaterThanOrEqual,
   match,
   combine as combineFilter,
-  createFilterCompareFunction,
+  createFilterFunction,
 } from "@antoniovdlc/filter";
 import { pick, select } from "@antoniovdlc/map";
 import { sum, average, groupBy } from "@antoniovdlc/reduce";
@@ -31,7 +31,7 @@ const filter = {
   greaterThanOrEqual,
   match,
   combine: combineFilter,
-  createFilterCompareFunction,
+  createFilterFunction,
 };
 const map = { pick, select };
 const reduce = { sum, average, groupBy };
