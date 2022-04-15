@@ -1,6 +1,24 @@
 import { describe, it, expect } from "vitest";
 
-import { map, reduce, sort } from "../src";
+import { filter, map, reduce, sort } from "../src";
+
+describe("filter", () => {
+  it("exports combine, createFilterCompareFunction, equal, greaterThan, greaterThanOrEqual, hasValue, lesserThan, lesserThanOrEqual, match, notNull", () => {
+    const keys = Object.keys(filter).sort();
+    expect(keys).toEqual([
+      "combine",
+      "createFilterCompareFunction",
+      "equal",
+      "greaterThan",
+      "greaterThanOrEqual",
+      "hasValue",
+      "lesserThan",
+      "lesserThanOrEqual",
+      "match",
+      "notNull",
+    ]);
+  });
+});
 
 describe("map", () => {
   it("exports pick, select", () => {
