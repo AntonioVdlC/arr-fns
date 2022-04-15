@@ -1,6 +1,6 @@
 {
   "name": "arr-fns",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Utility functions for arrays.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
