@@ -26,7 +26,9 @@
   "keywords": [
     "array",
     "sort",
-    "reduce"
+    "reduce",
+    "filter",
+    "map"
   ],
   "author": "Antonio Villagra De La Cruz",
   "repository": {
@@ -55,8 +57,8 @@
     "vitest": "^0.9.3"
   },
   "dependencies": {
-    "@antoniovdlc/filter": "1.0.1",
-    "@antoniovdlc/map": "1.0.0",
+    "@antoniovdlc/filter": "1.0.2",
+    "@antoniovdlc/map": "1.0.1",
     "@antoniovdlc/reduce": "1.0.0",
     "@antoniovdlc/sort": "1.2.3"
   }
